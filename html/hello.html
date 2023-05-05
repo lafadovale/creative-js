@@ -96,9 +96,18 @@
         "Iron Maiden",
       ];
 
-      bands.forEach((band) => {
-        console.log(band);
-      });
+      function listArtists() {
+        for (let i = 0; i < bands.length; i++) {
+          console.log(bands[i]);
+        }
+      }
+
+      listArtists();
+
+      // or
+      // bands.forEach((band) => {
+      //   console.log(band);
+      // });
     </script>
   </body>
 </html>
